@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img"
+    android:layout_centerHorizontal="true"
+    >
+
+    <Button
+        android:id="@+id/button_test"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:text="Button" />
+
+    <GridLayout
+
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp">
+
+
+        <ImageView
+            android:id="@+id/white1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_row="6"
+            android:layout_column="0"
+            android:src="@drawable/white" />
+
+        <ImageView
+            android:id="@+id/white2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_row="6"
+            android:layout_column="1"
+            android:src="@drawable/white" />
+
+        <ImageView
+            android:id="@+id/white3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_row="6"
+            android:layout_column="2"
+
+            android:src="@drawable/white" />
+
+        <ImageView
+            android:id="@+id/white4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_row="7"
+            android:layout_column="0"
+            android:src="@drawable/white" />
+
+        <ImageView
+            android:id="@+id/white5"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_row="7"
+            android:layout_column="1"
+            android:src="@drawable/white" />
+
+        <ImageView
+            android:id="@+id/white6"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_row="7"
+            android:layout_column="2"
+            android:src="@drawable/white" />
+
+        <ImageView
+            android:id="@+id/white7"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_row="8"
+            android:layout_column="0"
+            android:src="@drawable/white" />
+
+        <ImageView
+            android:id="@+id/white8"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_row="8"
+            android:layout_column="1"
+            android:src="@drawable/white" />
+
+        <ImageView
+            android:id="@+id/white9"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_row="8"
+            android:layout_column="2"
+            android:src="@drawable/white" />
+    </GridLayout>
+
+    <GridLayout
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="450dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp">
+        <ImageView
+            android:id="@+id/green1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_row="9"
+            android:layout_column="0"
+            android:src="@drawable/green" />
+
+        <ImageView
+            android:id="@+id/green2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_row="9"
+            android:layout_column="1"
+            android:src="@drawable/green" />
+
+        <ImageView
+            android:id="@+id/green3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_row="9"
+            android:layout_column="2"
+            android:src="@drawable/green" />
+
+        <ImageView
+            android:id="@+id/green4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_row="10"
+            android:layout_column="0"
+            android:src="@drawable/green" />
+
+        <ImageView
+            android:id="@+id/green5"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_row="10"
+            android:layout_column="1"
+            android:src="@drawable/green" />
+
+        <ImageView
+            android:id="@+id/green6"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_row="10"
+            android:layout_column="2"
+            android:src="@drawable/green" />
+
+        <ImageView
+            android:id="@+id/green7"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_row="11"
+            android:layout_column="0"
+            android:src="@drawable/green" />
+
+        <ImageView
+            android:id="@+id/green8"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_row="11"
+            android:layout_column="1"
+            android:src="@drawable/green" />
+
+        <ImageView
+            android:id="@+id/green9"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_row="11"
+            android:layout_column="2"
+            android:src="@drawable/green" />
+
+        </GridLayout>
+
+    <GridLayout
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="600dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp">
+        <ImageView
+            android:id="@+id/yellow2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:src="@drawable/yellow" />
+
+        <ImageView
+            android:id="@+id/yellow3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_row="0"
+            android:layout_column="2"
+            android:src="@drawable/yellow" />
+
+        <ImageView
+            android:id="@+id/yellow4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:src="@drawable/yellow" />
+
+        <ImageView
+            android:id="@+id/yellow5"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:src="@drawable/yellow" />
+
+        <ImageView
+            android:id="@+id/yellow6"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_row="1"
+            android:layout_column="2"
+            android:src="@drawable/yellow" />
+
+        <ImageView
+            android:id="@+id/yellow7"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:src="@drawable/yellow" />
+
+        <ImageView
+            android:id="@+id/yellow8"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:src="@drawable/yellow" />
+
+        <ImageView
+            android:id="@+id/yellow9"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_row="2"
+            android:layout_column="2"
+            android:src="@drawable/yellow" />
+
+        <ImageView
+            android:id="@+id/yellow1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:src="@drawable/yellow" />
+
+    </GridLayout>
+
+    <GridLayout
+        android:layout_marginTop="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="150dp"
+        android:layout_height="150dp">
+
+        <ImageView
+            android:id="@+id/blue1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_row="3"
+            android:layout_column="0"
+            android:src="@drawable/blue" />
+
+        <ImageView
+            android:id="@+id/blue2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_row="3"
+            android:layout_column="1"
+            android:src="@drawable/blue" />
+
+        <ImageView
+            android:id="@+id/blue3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_row="3"
+            android:layout_column="2"
+            android:src="@drawable/blue" />
+
+        <ImageView
+            android:id="@+id/blue4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_row="4"
+            android:layout_column="0"
+            android:src="@drawable/blue" />
+
+        <ImageView
+            android:id="@+id/blue5"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_row="4"
+            android:layout_column="1"
+            android:src="@drawable/blue" />
+
+        <ImageView
+            android:id="@+id/blue6"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_row="4"
+            android:layout_column="2"
+            android:src="@drawable/blue" />
+
+        <ImageView
+            android:id="@+id/blue7"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_row="5"
+            android:layout_column="0"
+            android:src="@drawable/blue" />
+
+        <ImageView
+            android:id="@+id/blue8"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_row="5"
+            android:layout_column="1"
+            android:src="@drawable/blue" />
+
+        <ImageView
+            android:id="@+id/blue9"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_row="5"
+            android:layout_column="2"
+            android:src="@drawable/blue" />
+
+    </GridLayout>
+
+
+
+</RelativeLayout>
