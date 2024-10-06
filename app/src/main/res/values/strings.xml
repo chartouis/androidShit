@@ -2,4 +2,5 @@
     <string name="app_name">SLAVAMARLOW</string>
     <string name="button_main">ass</string>
     <string name="title_activity_cube">CubeActivity</string>
+    <string name="tile">tile</string>
 </resources>

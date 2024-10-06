@@ -1,35 +1,37 @@
 package com.example.slavamarlow.KUBE;
 
+import com.example.slavamarlow.R;
+
 import java.util.ArrayList;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Kube {
 
-    static String[][][] KUBIKGREENFACE = {
-                    {{"orange1", "orange2", "orange3"},
-                    {"orange4", "orange5", "orange6"},
-                    {"orange7", "orange8", "orange9"}},
+    static int[][][] KUBIKGREENFACE = {
+                    {{R.drawable.green, R.drawable.green, R.drawable.green},
+                    {R.drawable.green, R.drawable.green, R.drawable.green},
+                    {R.drawable.green, R.drawable.green, R.drawable.green}},
 
-                    {{"yellow1", "yellow2", "yellow3"},
-                    {"yellow4", "yellow5", "yellow6"},
-                    {"yellow7", "yellow8", "yellow9"}},
+                    {{R.drawable.yellow, R.drawable.yellow, R.drawable.yellow},
+                    {R.drawable.yellow, R.drawable.yellow, R.drawable.yellow},
+                    {R.drawable.yellow, R.drawable.yellow, R.drawable.yellow}},
 
-                    {{"red1", "red2", "red3"},
-                    {"red4", "red5", "red6"},
-                    {"red7", "red8", "red9"}},
+                    {{R.drawable.red, R.drawable.red, R.drawable.red},
+                    {R.drawable.red, R.drawable.red, R.drawable.red},
+                    {R.drawable.red, R.drawable.red, R.drawable.red}},
 
-                    {{"blue1", "blue2", "blue3"},
-                    {"blue4", "blue5", "blue6"},
-                    {"blue7", "blue8", "blue9"}},
+                    {{R.drawable.blue, R.drawable.blue, R.drawable.blue},
+                    {R.drawable.blue, R.drawable.blue, R.drawable.blue},
+                    {R.drawable.blue, R.drawable.blue, R.drawable.blue}},
 
-                    {{"white1", "white2", "white3"},
-                    {"white4", "white5", "white6"},
-                    {"white7", "white8", "white9"}},
+                    {{R.drawable.white, R.drawable.white, R.drawable.white},
+                    {R.drawable.white, R.drawable.white, R.drawable.white},
+                    {R.drawable.white, R.drawable.white, R.drawable.white}},
 
-                    {{"green1", "green2", "green3"},
-                    {"green4", "green5", "green6"},
-                    {"green7", "green8", "green9"}}
+                    {{R.drawable.green, R.drawable.green, R.drawable.green},
+                    {R.drawable.green, R.drawable.green, R.drawable.green},
+                    {R.drawable.green, R.drawable.green, R.drawable.green}}
     };
     static String TEMP;
     static ArrayList<String> solv = new ArrayList<>();
@@ -47,7 +49,7 @@ public class Kube {
 
             TEXT=TEXT.toUpperCase();
             String[] commands = TEXT.split(" ");
-            String[][][] curentCube = KUBIKGREENFACE;
+            int[][][] curentCube = KUBIKGREENFACE;
             for (String command : commands){
                 switch (command){
                     case ("L"):rotate0(curentCube);break;
@@ -84,8 +86,8 @@ public class Kube {
     }
 
 
-    public static void rotate2(String[][][] cube) {
-        String[] temp = new String[3];
+    public static void rotate2(int[][][] cube) {
+        int[] temp = new int[3];
         for (int i = 0; i < 3; i++) {
             temp[i]=cube[5][2-i][2];
             cube[5][2-i][2] = cube[1][2-i][2];
@@ -96,8 +98,8 @@ public class Kube {
 
         rotateFaceClockwise(cube[2]);
     }
-    public static void rotate0(String[][][] cube) {
-        String[] temp = new String[3];
+    public static void rotate0(int[][][] cube) {
+        int[] temp = new int[3];
         for (int i = 0; i < 3; i++) {
             temp[i]=cube[5][i][0];
             cube[5][i][0] = cube[4][2-i][0];
@@ -108,8 +110,8 @@ public class Kube {
 
         rotateFaceClockwise(cube[0]);
     }
-    public static void rotate5(String[][][] cube) {
-        String[] temp = new String[3];
+    public static void rotate5(int[][][] cube) {
+        int[] temp = new int[3];
         for (int i = 0; i < 3; i++) {
             temp[i]=cube[4][2][2-i];
             cube[4][2][2-i] = cube[0][i][2];
@@ -120,8 +122,8 @@ public class Kube {
 
         rotateFaceClockwise(cube[5]);
     }
-    public static void rotate4(String[][][] cube) {
-        String[] temp = new String[3];
+    public static void rotate4(int[][][] cube) {
+        int[] temp = new int[3];
         for (int i = 0; i < 3; i++) {
             temp[i]=cube[5][0][i];
             cube[5][0][i] = cube[2][0][i];
@@ -132,8 +134,8 @@ public class Kube {
 
         rotateFaceClockwise(cube[4]);
     }
-    public static void rotate1(String[][][] cube) {
-        String[] temp = new String[3];
+    public static void rotate1(int[][][] cube) {
+        int[] temp = new int[3];
         for (int i = 0; i < 3; i++) {
             temp[i]=cube[5][2][i];
             cube[5][2][i] = cube[0][2][i];
@@ -144,8 +146,8 @@ public class Kube {
 
         rotateFaceClockwise(cube[1]);
     }
-    public static void rotate3(String[][][] cube) {
-        String[] temp = new String[3];
+    public static void rotate3(int[][][] cube) {
+        int[] temp = new int[3];
         for (int i = 0; i < 3; i++) {
             temp[i]=cube[1][2][i];
             cube[1][2][i] = cube[0][i][0];
@@ -158,8 +160,8 @@ public class Kube {
     }
 
     // Вращает любую сторону на 90 градусов по часовой стрелке
-    public static void rotateFaceClockwise(String[][] face) {
-        String[][] temp = new String[3][3];
+    public static void rotateFaceClockwise(int[][] face) {
+        int[][] temp = new int[3][3];
 
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
@@ -173,7 +175,7 @@ public class Kube {
             }
         }
     }
-    public String[][][] getCube() {
+    public int[][][] getCube() {
         return KUBIKGREENFACE;
     }
 

@@ -1,6 +1,7 @@
 package com.example.slavamarlow
 
 import android.annotation.SuppressLint
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import androidx.activity.ComponentActivity
@@ -18,6 +19,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.tooling.preview.PreviewParameter
 import androidx.compose.ui.unit.dp
+import com.example.slavamarlow.KUBE.CubeActivity
 import com.example.slavamarlow.ui.theme.SLAVAMARLOWTheme
 
 class MainActivity : ComponentActivity() {
@@ -26,10 +28,12 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.main_layout)
-
+        val intent = Intent(this, CubeActivity::class.java)
         val cube_starter_button = findViewById<Button>(R.id.button_kube)
         cube_starter_button.setOnClickListener {
-            setContentView(R.layout.cube)
+
+            startActivity(intent)
+
         }
 
         enableEdgeToEdge()

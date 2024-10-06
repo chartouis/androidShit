@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/relativeLayout2"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -12,7 +14,7 @@
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_marginTop="50dp"
-        android:text="Button"
+        android:text="@string/tile"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -29,6 +31,8 @@
 
 
         <ImageView
+            android:contentDescription="@string/tile"
+            
             android:id="@+id/white1"
             android:layout_width="50dp"
             android:layout_height="50dp"
@@ -37,6 +41,7 @@
             android:src="@drawable/white" />
 
         <ImageView
+            android:contentDescription="@string/tile"
             android:id="@+id/white2"
             android:layout_width="50dp"
             android:layout_height="50dp"
@@ -45,6 +50,7 @@
             android:src="@drawable/white" />
 
         <ImageView
+            android:contentDescription="@string/tile"
             android:id="@+id/white3"
             android:layout_width="50dp"
             android:layout_height="50dp"
@@ -54,6 +60,7 @@
             android:src="@drawable/white" />
 
         <ImageView
+            android:contentDescription="@string/tile"
             android:id="@+id/white4"
             android:layout_width="50dp"
             android:layout_height="50dp"
@@ -62,6 +69,7 @@
             android:src="@drawable/white" />
 
         <ImageView
+            android:contentDescription="@string/tile"
             android:id="@+id/white5"
             android:layout_width="50dp"
             android:layout_height="50dp"
@@ -70,6 +78,7 @@
             android:src="@drawable/white" />
 
         <ImageView
+            android:contentDescription="@string/tile"
             android:id="@+id/white6"
             android:layout_width="50dp"
             android:layout_height="50dp"
@@ -78,6 +87,7 @@
             android:src="@drawable/white" />
 
         <ImageView
+            android:contentDescription="@string/tile"
             android:id="@+id/white7"
             android:layout_width="50dp"
             android:layout_height="50dp"
@@ -86,6 +96,7 @@
             android:src="@drawable/white" />
 
         <ImageView
+            android:contentDescription="@string/tile"
             android:id="@+id/white8"
             android:layout_width="50dp"
             android:layout_height="50dp"
@@ -94,6 +105,7 @@
             android:src="@drawable/white" />
 
         <ImageView
+            android:contentDescription="@string/tile"
             android:id="@+id/white9"
             android:layout_width="50dp"
             android:layout_height="50dp"
@@ -112,6 +124,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
+            android:contentDescription="@string/tile"
             android:id="@+id/green1"
             android:layout_width="50dp"
             android:layout_height="50dp"
@@ -120,6 +133,7 @@
             android:src="@drawable/green" />
 
         <ImageView
+            android:contentDescription="@string/tile"
             android:id="@+id/green2"
             android:layout_width="50dp"
             android:layout_height="50dp"
@@ -128,6 +142,7 @@
             android:src="@drawable/green" />
 
         <ImageView
+            android:contentDescription="@string/tile"
             android:id="@+id/green3"
             android:layout_width="50dp"
             android:layout_height="50dp"
@@ -136,6 +151,7 @@
             android:src="@drawable/green" />
 
         <ImageView
+            android:contentDescription="@string/tile"
             android:id="@+id/green4"
             android:layout_width="50dp"
             android:layout_height="50dp"
@@ -144,6 +160,7 @@
             android:src="@drawable/green" />
 
         <ImageView
+            android:contentDescription="@string/tile"
             android:id="@+id/green5"
             android:layout_width="50dp"
             android:layout_height="50dp"
@@ -152,6 +169,7 @@
             android:src="@drawable/green" />
 
         <ImageView
+            android:contentDescription="@string/tile"
             android:id="@+id/green6"
             android:layout_width="50dp"
             android:layout_height="50dp"
@@ -160,6 +178,7 @@
             android:src="@drawable/green" />
 
         <ImageView
+            android:contentDescription="@string/tile"
             android:id="@+id/green7"
             android:layout_width="50dp"
             android:layout_height="50dp"
@@ -168,6 +187,7 @@
             android:src="@drawable/green" />
 
         <ImageView
+            android:contentDescription="@string/tile"
             android:id="@+id/green8"
             android:layout_width="50dp"
             android:layout_height="50dp"
@@ -176,6 +196,7 @@
             android:src="@drawable/green" />
 
         <ImageView
+            android:contentDescription="@string/tile"
             android:id="@+id/green9"
             android:layout_width="50dp"
             android:layout_height="50dp"
@@ -195,6 +216,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
+            android:contentDescription="@string/tile"
             android:id="@+id/yellow2"
             android:layout_width="50dp"
             android:layout_height="50dp"
@@ -203,6 +225,7 @@
             android:src="@drawable/yellow" />
 
         <ImageView
+            android:contentDescription="@string/tile"
             android:id="@+id/yellow3"
             android:layout_width="50dp"
             android:layout_height="50dp"
@@ -211,6 +234,7 @@
             android:src="@drawable/yellow" />
 
         <ImageView
+            android:contentDescription="@string/tile"
             android:id="@+id/yellow4"
             android:layout_width="50dp"
             android:layout_height="50dp"
@@ -219,6 +243,7 @@
             android:src="@drawable/yellow" />
 
         <ImageView
+            android:contentDescription="@string/tile"
             android:id="@+id/yellow5"
             android:layout_width="50dp"
             android:layout_height="50dp"
@@ -227,6 +252,7 @@
             android:src="@drawable/yellow" />
 
         <ImageView
+            android:contentDescription="@string/tile"
             android:id="@+id/yellow6"
             android:layout_width="50dp"
             android:layout_height="50dp"
@@ -235,6 +261,7 @@
             android:src="@drawable/yellow" />
 
         <ImageView
+            android:contentDescription="@string/tile"
             android:id="@+id/yellow7"
             android:layout_width="50dp"
             android:layout_height="50dp"
@@ -243,6 +270,7 @@
             android:src="@drawable/yellow" />
 
         <ImageView
+            android:contentDescription="@string/tile"
             android:id="@+id/yellow8"
             android:layout_width="50dp"
             android:layout_height="50dp"
@@ -251,6 +279,7 @@
             android:src="@drawable/yellow" />
 
         <ImageView
+            android:contentDescription="@string/tile"
             android:id="@+id/yellow9"
             android:layout_width="50dp"
             android:layout_height="50dp"
@@ -259,6 +288,7 @@
             android:src="@drawable/yellow" />
 
         <ImageView
+            android:contentDescription="@string/tile"
             android:id="@+id/yellow1"
             android:layout_width="50dp"
             android:layout_height="50dp"
@@ -278,6 +308,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
+            android:contentDescription="@string/tile"
             android:id="@+id/blue1"
             android:layout_width="50dp"
             android:layout_height="50dp"
@@ -286,6 +317,7 @@
             android:src="@drawable/blue" />
 
         <ImageView
+            android:contentDescription="@string/tile"
             android:id="@+id/blue2"
             android:layout_width="50dp"
             android:layout_height="50dp"
@@ -294,6 +326,7 @@
             android:src="@drawable/blue" />
 
         <ImageView
+            android:contentDescription="@string/tile"
             android:id="@+id/blue3"
             android:layout_width="50dp"
             android:layout_height="50dp"
@@ -302,6 +335,7 @@
             android:src="@drawable/blue" />
 
         <ImageView
+            android:contentDescription="@string/tile"
             android:id="@+id/blue4"
             android:layout_width="50dp"
             android:layout_height="50dp"
@@ -310,6 +344,7 @@
             android:src="@drawable/blue" />
 
         <ImageView
+            android:contentDescription="@string/tile"
             android:id="@+id/blue5"
             android:layout_width="50dp"
             android:layout_height="50dp"
@@ -318,6 +353,7 @@
             android:src="@drawable/blue" />
 
         <ImageView
+            android:contentDescription="@string/tile"
             android:id="@+id/blue6"
             android:layout_width="50dp"
             android:layout_height="50dp"
@@ -326,6 +362,7 @@
             android:src="@drawable/blue" />
 
         <ImageView
+            android:contentDescription="@string/tile"
             android:id="@+id/blue7"
             android:layout_width="50dp"
             android:layout_height="50dp"
@@ -334,6 +371,7 @@
             android:src="@drawable/blue" />
 
         <ImageView
+            android:contentDescription="@string/tile"
             android:id="@+id/blue8"
             android:layout_width="50dp"
             android:layout_height="50dp"
@@ -342,6 +380,7 @@
             android:src="@drawable/blue" />
 
         <ImageView
+            android:contentDescription="@string/tile"
             android:id="@+id/blue9"
             android:layout_width="50dp"
             android:layout_height="50dp"
@@ -350,6 +389,33 @@
             android:src="@drawable/blue" />
 
     </GridLayout>
+
+
+        <EditText
+            android:textColor="@color/teal_700"
+            android:id="@+id/commands_text"
+            android:layout_marginTop="48dp"
+            android:ems="10"
+            android:inputType="text"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/gridLayout3"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="Enter Command">
+        </EditText>
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="125dp"
+        android:text="TextView"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_test" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
